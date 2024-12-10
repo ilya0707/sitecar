@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#carGallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.car {
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+}
+
+.car img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+p {
+    color: #555;
+}
